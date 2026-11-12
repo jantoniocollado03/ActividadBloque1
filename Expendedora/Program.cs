@@ -6,7 +6,7 @@ namespace Expendedora;
 
 public class Program
 {
-    static readonly CultureInfo ESPANOL = new CultureInfo("es-ES");
+    static readonly CultureInfo Espanol = new CultureInfo("es-ES");
     
     const int PrecioZumo = 140;
     const int PrecioGalletas = 90;
@@ -26,7 +26,7 @@ public class Program
     /// <param name="args">Argumentos de la línea de comandos (no se usan).</param>
     static void Main(string[] args)
     {
-        CultureInfo.CurrentCulture = ESPANOL;
+        CultureInfo.CurrentCulture = Espanol;
         Console.OutputEncoding = Encoding.UTF8;
 
         // TODO: En el Bloque 2, agrupar el stock y las ventas en arrays para simplificar la gestión.
@@ -315,7 +315,7 @@ public class Program
     /// <returns>El importe como texto, por ejemplo "1,40 €".</returns>
     public static string Formatear(int centimos)
     {
-        return (centimos / 100m).ToString("C", ESPANOL);
+        return (centimos / 100m).ToString("C", Espanol);
     }
     
     /// <summary>
