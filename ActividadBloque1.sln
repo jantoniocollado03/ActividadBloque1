@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expendedora", "Expendedora\Expendedora.csproj", "{AAE1493F-CBC1-41B2-96F3-E940DCDA2899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expendedora.Pruebas", "Expendedora.Pruebas\Expendedora.Pruebas.csproj", "{E4A62C6E-E1B4-4C8D-A3B7-D8967080CE44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAE1493F-CBC1-41B2-96F3-E940DCDA2899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE1493F-CBC1-41B2-96F3-E940DCDA2899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE1493F-CBC1-41B2-96F3-E940DCDA2899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE1493F-CBC1-41B2-96F3-E940DCDA2899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A62C6E-E1B4-4C8D-A3B7-D8967080CE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A62C6E-E1B4-4C8D-A3B7-D8967080CE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A62C6E-E1B4-4C8D-A3B7-D8967080CE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A62C6E-E1B4-4C8D-A3B7-D8967080CE44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
